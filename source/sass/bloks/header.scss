@@ -1,0 +1,45 @@
+.header__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 104px;
+  margin-bottom: 28px;
+}
+
+.header__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.header__link {
+  color: $typography;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+  margin-right: 40px;
+}
+
+.header__button {
+  background-color: $wight;
+  color: $orange;
+  padding: 16px 28px;
+  border: 1px solid $orange;
+  border-radius: 100px;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.header__search {
+  padding: 0;
+}

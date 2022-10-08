@@ -1,0 +1,12 @@
+body {
+  font-family: $font-family--Montserrat;
+  color: $typography;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  overflow-x: hidden;
+}
