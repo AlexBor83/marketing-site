@@ -1,10 +1,13 @@
 @import "normalize.scss";
 @import "variables.scss";
 @import "global.scss";
-// @import "bloks/fonts.scss";
-// @import "bloks/body.scss";
-// @import "bloks/container.scss";
-// @import "bloks/header.scss";
+@import "bloks/body.scss";
+@import "bloks/container.scss";
+@import "bloks/button.scss";
+@import "bloks/header.scss";
+@import "bloks/navigation.scss";
+@import "bloks/search.scss";
+
 // @import "bloks/slogan.scss";
 // @import "bloks/index-slogan.scss";
 // @import "bloks/swiper.scss";
