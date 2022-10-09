@@ -1,0 +1,69 @@
+.card-package {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  padding: 40px 32px;
+  color: $wight;
+
+  background-image: url("../img/package-yandex.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  @media (min-resolution: $retina-dpi-2) {
+    background-image: url("../img/package-yandex@2x.webp");
+  }
+
+  &--crisis {
+    background-image: url("../img/package-classic.webp");
+
+    @media (min-resolution: $retina-dpi-2) {
+      background-image: url("../img/package-classic@2x.webp");
+    }
+  }
+
+  &--sicial {
+    background-image: url("../img/package-soc.webp");
+
+    @media (min-resolution: $retina-dpi-2) {
+      background-image: url("../img/package-soc@2x.webp");
+    }
+  }
+}
+
+.card-package__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 28px;
+}
+
+.card-package__text {
+  margin: 0;
+  padding: 20px 0;
+
+  &--top {
+    border-top: 1px solid $wightopasity;
+    border-bottom: 1px solid $wightopasity;
+  }
+
+  &--condition {
+    font-size: 14px;
+    line-height: 140%;
+    opacity: 0.5;
+  }
+}
+
+.card-package__button {
+  margin-top: auto;
+  background-color: transparent;
+  border: 1px solid $orange;
+  border-radius: 100px;
+  color: $orange;
+  text-align: center;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 16px;
+}
