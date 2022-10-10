@@ -1,0 +1,18 @@
+.sales {
+  margin-bottom: 20px;
+}
+
+.sales__title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  margin: 0;
+  margin-bottom: 62px;
+}
+
+.sales__wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 60px;
+}
