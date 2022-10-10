@@ -39,3 +39,13 @@
     margin-left: 32px;
   }
 }
+
+.marketing__button:hover {
+  background-color: $orangedark;
+}
+
+.marketing__button--alternative:hover {
+  background-color: transparent;
+  color: $orange;
+  border: 1px solid $orange;
+}

@@ -11,10 +11,22 @@
   margin-bottom: 28px;
 }
 
+.header__logo {
+  transition: 0.5s;
+}
+
+.header__logo:hover {
+  opacity: 0.5;
+}
+
 .header__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
+}
+
+.header__inner {
+  position: relative;
 }
 
 .header__link {
@@ -24,6 +36,11 @@
   line-height: 20px;
   opacity: 0.7;
   margin-right: 40px;
+  transition: 0.5s;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__button {
@@ -32,6 +49,27 @@
   padding: 16px 28px;
   border: 1px solid $orange;
   border-radius: 100px;
+  transition: 0.5s;
+}
+
+.header__svg {
+  position: absolute;
+  top: 17px;
+  right: 187px;
+}
+
+.header__svg path {
+  stroke: $orange;
+  transition: 0.5s;
+}
+
+.header__button:hover {
+  background-color: $orangedark;
+  color: $wight;
+}
+
+.header__button:hover + .header__svg path {
+  stroke: $wight;
 }
 
 .header__row {
