@@ -1,0 +1,87 @@
+.header__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 104px;
+  margin-bottom: 33px;
+}
+
+.header__logo {
+  transition: 0.5s;
+}
+
+.header__logo:hover {
+  opacity: 0.5;
+}
+
+.header__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.header__inner {
+  position: relative;
+}
+
+.header__link {
+  color: $typography;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+  margin-right: 40px;
+  transition: 0.5s;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+}
+
+.header__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: $wight;
+  color: $orange;
+  padding: 15px 25px 15px 58px;
+  border: 1px solid $orange;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+
+.header__svg {
+  position: absolute;
+  top: 17px;
+  right: 174px;
+}
+
+.header__svg path {
+  stroke: $orange;
+  transition: 0.5s;
+}
+
+.header__button:hover {
+  background-color: $orangedark;
+  color: $wight;
+}
+
+.header__button:hover + .header__svg path {
+  stroke: $wight;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.header__search {
+  padding: 0;
+}

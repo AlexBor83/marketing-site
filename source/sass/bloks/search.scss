@@ -1,0 +1,24 @@
+.search {
+  margin-left: 40px;
+  position: relative;
+}
+
+.search__button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/svg-icon/search-icon.svg");
+    width: 24px;
+    height: 24px;
+    top: 2px;
+    left: -22px;
+  }
+}
+
+.search__button:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,127 @@
+.card-sale {
+  display: flex;
+  flex-direction: column;
+  min-height: 504px;
+  border: 1px solid $grayopasity;
+  // height: 100%;
+  flex-basis: 100%;
+}
+
+.card-sale__content {
+  padding: 28px 24px 24px 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-sale__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  min-height: 50px;
+  text-transform: uppercase;
+}
+
+.card-sale__text {
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  opacity: 0.5;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  min-height: 100px;
+  border-bottom: 1px solid $grayopasity;
+}
+
+.card-sale__discount {
+  margin: 0;
+  margin-top: 27px;
+  margin-left: 51px;
+  margin-bottom: 15px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/svg-icon/rub-icon.svg");
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    top: -4px;
+    left: -50px;
+  }
+}
+
+.card-sale__discount span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: $orange;
+}
+
+.card-sale__price {
+  margin: 0;
+  margin-bottom: auto;
+  margin-left: 51px;
+  font-size: 14px;
+  line-height: 140%;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/svg-icon/sale-icon.svg");
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    left: -50px;
+  }
+
+  &--present::before {
+    background-image: url("../img/svg-icon/present-icon.svg");
+  }
+}
+
+.card-sale__price span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  opacity: 0.5;
+  display: block;
+  width: 230px;
+  text-decoration: line-through;
+}
+
+.card-sale__price strong {
+  font-weight: 700;
+}
+
+.card-sale__link {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 40px;
+  color: $orange;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/svg-icon/arrow-right-icon.svg");
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 10px;
+    top: 5px;
+    left: 90px;
+  }
+}
+
+.card-sale__link:hover {
+  opacity: 0.5;
+}

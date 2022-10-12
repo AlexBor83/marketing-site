@@ -1,0 +1,18 @@
+.features {
+  margin-bottom: 247px;
+}
+
+.features__title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.features__wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 60px;
+}

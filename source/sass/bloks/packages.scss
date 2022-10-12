@@ -1,0 +1,26 @@
+.packages {
+  margin-bottom: 120px;
+}
+
+.packages__title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: $orange;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.packages__title span {
+  color: $typography;
+}
+
+.packages__wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+}
+
+.packages__card {
+  min-height: 487px;
+}
