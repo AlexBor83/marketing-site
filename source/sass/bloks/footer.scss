@@ -15,18 +15,18 @@ footer a:hover {
   display: flex;
   justify-content: space-between;
   color: $wight;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   border-bottom: 1px solid $wightopasity;
 }
 
 .footer__adress {
   max-width: 200px;
-  margin-right: 160px;
+  margin-right: 40px;
 }
 
 .footer__logo {
   display: inline-block;
-  margin-bottom: 57px;
+  margin-bottom: 52px;
 }
 
 .footer__text {
@@ -72,7 +72,8 @@ footer a:hover {
 }
 
 .footer__list {
-  // margin: 0;
+  margin: 0;
+  margin-top: 26px;
   padding: 0;
   list-style: none;
 }

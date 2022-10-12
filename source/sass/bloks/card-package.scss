@@ -38,6 +38,7 @@
   font-size: 18px;
   line-height: 140%;
   margin-bottom: 28px;
+  max-width: 290px;
 }
 
 .card-package__text {
@@ -47,13 +48,22 @@
   &--top {
     border-top: 1px solid $wightopasity;
     border-bottom: 1px solid $wightopasity;
+    padding-right: 50px;
   }
 
   &--condition {
     font-size: 14px;
     line-height: 140%;
     opacity: 0.5;
+    padding-right: 10px;
+    padding-bottom: 11px;
   }
+}
+
+.card-package__text span {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
 }
 
 .card-package__button {

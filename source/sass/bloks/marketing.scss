@@ -32,10 +32,11 @@
 }
 
 .marketing__button {
-  border: none;
+  border: 1px solid $orange;
 
   &--alternative {
     background-color: $wightopasity;
+    border: 1px solid $wightopasity;
     margin-left: 32px;
   }
 }
@@ -47,5 +48,5 @@
 .marketing__button--alternative:hover {
   background-color: transparent;
   color: $orange;
-  border: 1px solid $orange;
+  border-color: $orange;
 }
