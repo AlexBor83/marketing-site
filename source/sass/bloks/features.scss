@@ -1,5 +1,5 @@
 .features {
-  margin-bottom: 240px;
+  margin-bottom: 247px;
 }
 
 .features__title {
@@ -13,5 +13,6 @@
 .features__wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 60px;
+  row-gap: 30px;
+  column-gap: 60px;
 }

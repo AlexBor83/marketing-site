@@ -5,10 +5,11 @@
 
 .header__top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   min-height: 104px;
-  margin-bottom: 28px;
+  margin-bottom: 33px;
 }
 
 .header__logo {
@@ -44,9 +45,12 @@
 }
 
 .header__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   background-color: $wight;
   color: $orange;
-  padding: 16px 28px;
+  padding: 15px 25px 15px 58px;
   border: 1px solid $orange;
   border-radius: 100px;
   transition: 0.5s;
@@ -55,7 +59,7 @@
 .header__svg {
   position: absolute;
   top: 17px;
-  right: 187px;
+  right: 174px;
 }
 
 .header__svg path {
