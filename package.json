@@ -2,6 +2,7 @@
   "name": "start-template",
   "version": "1.0.0",
   "description": "Стартовый шаблон",
+  "homepage": "https://AlexBor83.github.io/marketing-site",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.5.x",
@@ -31,7 +32,9 @@
     "build": "gulp build",
     "start": "gulp start",
     "webp": "gulp webp",
-    "sprite": "gulp sprite"
+    "sprite": "gulp sprite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     "last 2 versions",
