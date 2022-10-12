@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__wrap">
+      <div class="header__top">
+        <a href="#" class="header__logo">
+          <img src="./img/logo.svg" alt="Логотип компании дом сайтов" width="185" height="48">
+        </a>
+        <p class="header__text">
+          Увеличиваем продажи в Вашем бизнесе!
+        </p>
+        <div class="header__inner">
+          <a class="header__link" href="tel:+74872792910">+7 (4872) 79-29-10</a>
+          <button type="button" class="header__button button">Заказать звонок</button>
+          <svg class="header__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_853_194)">
+              <path d="M18.3334 14.1V16.6C18.3344 16.8321 18.2868 17.0618 18.1939 17.2745C18.1009 17.4871 17.9645 17.678 17.7935 17.8349C17.6225 17.9918 17.4206 18.1112 17.2007 18.1856C16.9809 18.2599 16.7479 18.2876 16.5168 18.2667C13.9525 17.988 11.4893 17.1118 9.32511 15.7083C7.31163 14.4289 5.60455 12.7218 4.32511 10.7083C2.91676 8.53433 2.04031 6.05916 1.76677 3.48333C1.74595 3.25288 1.77334 3.02063 1.84719 2.80135C1.92105 2.58207 2.03975 2.38057 2.19575 2.20968C2.35174 2.03879 2.54161 1.90225 2.75327 1.80876C2.96492 1.71527 3.19372 1.66688 3.42511 1.66666H5.92511C6.32953 1.66268 6.7216 1.80589 7.02824 2.0696C7.33488 2.33332 7.53517 2.69953 7.59177 3.09999C7.69729 3.90005 7.89298 4.6856 8.17511 5.44166C8.28723 5.73993 8.31149 6.06409 8.24503 6.37573C8.17857 6.68737 8.02416 6.97342 7.80011 7.2L6.74177 8.25833C7.92807 10.3446 9.65549 12.072 11.7418 13.2583L12.8001 12.2C13.0267 11.9759 13.3127 11.8215 13.6244 11.7551C13.936 11.6886 14.2602 11.7129 14.5584 11.825C15.3145 12.1071 16.1001 12.3028 16.9001 12.4083C17.3049 12.4654 17.6746 12.6693 17.9389 12.9812C18.2032 13.2931 18.3436 13.6913 18.3334 14.1Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_853_194">
+                <rect width="20" height="20" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+      </div>
+
+      <div class="header__row">
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item nav__item--dropdown">
+              <button class="nav__batton" type="button">
+                Увеличение продаж
+              </button>
+              <ul class="nav__dropdown">
+                <li class="nav__item nav__item--dropdown nav__item--hit">
+                  <a href="#" class="nav__link nav__link--dropdown">Пункт 1</a>
+                </li>
+
+                <li class="nav__item nav__item--dropdown">
+                  <a href="#" class="nav__link nav__link--dropdown">SEO продвижение сайтов в Яндекс</a>
+                </li>
+
+                <li class="nav__item nav__item--dropdown">
+                  <a href="#" class="nav__link nav__link--dropdown">Проведение бизнеса в социальных сетях</a>
+                </li>
+
+                <li class="nav__item nav__item--dropdown">
+                  <a href="#" class="nav__link nav__link--dropdown">Пункт 4</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Создание сайтов</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Поддержка</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Битрикс 24</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">О компании</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">кейсы</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__search search">
+          <button type="submit" class="search__button"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="search__content">
+      <div class="container">
+        <form action="">
+          <input type="search" class="search__input" placeholder="Поиск по сайту">
+        </form>
+      </div>
+    </div> -->
+  </header>
+
+  <main>
+    <section class="marketing">
+      <div class="container marketing__wrap">
+        <h1 class="marketing__title">
+          Комплексный интернет-маркетинг
+        </h1>
+        <p class="marketing__text">
+          Мы помогаем бизнесу находить клиентов быстрее, интегрируя маркетинговые, обучающие и
+          технологические продукты
+        </p>
+        <div class="marketing__wrap">
+          <button type="button" class="marketing__button button">Заказать увеличение продаж</button>
+          <button type="button" class="marketing__button marketing__button--alternative button">Заказать экспертный
+            аудит</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+
+      <section class="packages">
+        <h2 class="packages__title">Антикризисные <span>DIGITAL-пакеты</span></h2>
+        <div class="packages__wrap">
+          <div class="packages__card card-package">
+            <h3 class="card-package__title">
+              СТАБИЛЬНАЯ ЛИДОГЕНЕРАЦИЯ В КРИЗИС
+            </h3>
+            <p class="card-package__text card-package__text--top">
+              SEO-продвижение +
+              Контекстная реклама
+            </p>
+            <p class="card-package__text card-package__text--condition">
+              Ищете сплит каналов для
+              стабильного лидгена?<br> Нет ничего надежнее классики! </p>
+            <p class="card-package__text">
+              Специальная скидка до <span>40%</span> на каждую услугу в пакете
+            </p>
+            <a class="card-package__button button" href="#">Приобрести пакет</a>
+          </div>
+          <div class="packages__card card-package card-package--crisis">
+            <h3 class="card-package__title">
+              УСИЛЕНИЕ ЛИДОГЕНЕРАЦИИ В КРИЗИС
+            </h3>
+            <p class="card-package__text card-package__text--top">
+              SEO-продвижение +
+              Управление репутацией
+            </p>
+            <p class="card-package__text card-package__text--condition">
+              Добавьте к классическому
+              продвижению работу с
+              профильными площадками и
+              отзовиками.
+            </p>
+            <p class="card-package__text">
+              Специальная скидка до <span>40%</span> на каждую услугу в пакете
+            </p>
+            <a class="card-package__button button" href="#">Приобрести пакет</a>
+          </div>
+          <div class="packages__card card-package card-package--sicial">
+            <h3 class="card-package__title">
+              АНТИБЛОКИРОВКА В СОЦСЕТЯХ
+            </h3>
+            <p class="card-package__text card-package__text--top">
+              SEO-продвижение +
+              Таргет + Маркетплейсы
+            </p>
+            <p class="card-package__text card-package__text--condition">
+              Основные каналы лидгена попали
+              под блокировку?<br>
+              У нас уже есть
+              работающее решение.
+            </p>
+            <p class="card-package__text">
+              Специальная скидка до <span>20%</span> на каждую услугу в пакете
+            </p>
+            <a class="card-package__button button" href="#">Приобрести пакет</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2 class="features__title">
+          Преимущества работы с нами
+        </h2>
+        <div class="features__wrap">
+          <div class="features__card featur">
+            <img class="featur__icon" src="./img/svg-icon/growth-icon.svg" alt="Иконка преимущества">
+            <p class="featur__text">
+              Увеличиваем продажи, звонки и заявки с Вашего сайта
+            </p>
+          </div>
+          <div class="features__card featur">
+            <img class="featur__icon" src="./img/svg-icon/tech-icon.svg" alt="Иконка преимущества">
+            <p class="featur__text">
+              Используем современные технологии и собственные разработки
+            </p>
+          </div>
+          <div class="features__card featur">
+            <img class="featur__icon" src="./img/svg-icon/client-icon.svg" alt="Иконка преимущества">
+            <p class="featur__text">
+              Всегда оправдываем ожидания наших Клиентов
+            </p>
+          </div>
+          <div class="features__card featur">
+            <img class="featur__icon" src="./img/svg-icon/mail-icon.svg" alt="Иконка преимущества">
+            <p class="featur__text">
+              Более 100 благодарственных писем от Клиентов
+            </p>
+          </div>
+          <div class="features__card featur">
+            <img class="featur__icon" src="./img/svg-icon/thumbs_up-icon.svg" alt="Иконка преимущества">
+            <p class="featur__text">
+              Безупречная репутация на digital-рынке
+            </p>
+          </div>
+          <div class="features__card featur">
+            <img class="featur__icon" src="./img/svg-icon/target-icon.svg" alt="Иконка преимущества">
+            <p class="featur__text">
+              Помогаем достигать имиджевых и финансовых целей
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sales">
+        <h2 class="sales__title">
+          Лучшие решения для увеличения продаж
+        </h2>
+
+        <div class="sales__wrap">
+          <div class="sales__card card-sale">
+            <div class="card-sale__foto">
+              <picture>
+                <source type="image/webp" srcset="./img/yandex.webp, ./img/yandex@2x.webp 2x">
+                <img src="./img/yandex.png" srcset="./img/yandex@2x.png 2x" alt="Специальные виды продаж" width="358" height="117">
+              </picture>
+            </div>
+            <div class="card-sale__content">
+              <h3 class="card-sale__title">
+                Продвижение в Яндекс и Google (SEO)
+              </h3>
+              <p class="card-sale__text">
+                Увеличим Ваши продажи,
+                количество звонков и заявок
+                за счет оптимизации сайта.
+                Поднимем в ТОП и увеличим трафик.
+              </p>
+              <p class="card-sale__discount">
+                от <span>23 360 руб.</span>
+              </p>
+              <p class="card-sale__price">
+                <span>58 750 руб.</span>
+                Суперцена только в мае!
+              </p>
+              <a href="#" class="card-sale__link">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="sales__card card-sale">
+            <div class="card-sale__foto">
+              <picture>
+                <source type="image/webp" srcset="./img/advertising.webp, ./img/advertising@2x.webp 2x">
+                <img src="./img/advertising.png" srcset="./img/advertising@2x.png 2x" alt="Специальные виды продаж" width="358" height="117">
+              </picture>
+            </div>
+            <div class="card-sale__content">
+              <h3 class="card-sale__title">
+                Контекстная реклама
+              </h3>
+              <p class="card-sale__text">
+                Повысим Ваши продажи,
+                увеличим охват аудитории,
+                количество звонков и заявок
+                за счет привлечения только
+                целевого трафика.
+              </p>
+              <p class="card-sale__discount">
+                от <span>23 360 руб.</span>
+              </p>
+              <p class="card-sale__price card-sale__price--present">
+                Месяц CallTouch <strong>В ПОДАРОК</strong>
+                при контекстной рекламе <br>
+                от 100 000 руб.
+              </p>
+              <a href="#" class="card-sale__link">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="sales__card card-sale">
+            <div class="card-sale__foto">
+              <picture>
+                <source type="image/webp" srcset="./img/social.webp, ./img/social@2x.webp 2x">
+                <img src="./img/social.png" srcset="./img/social@2x.png 2x" alt="Специальные виды продаж" width="358" height="117">
+              </picture>
+            </div>
+            <div class="card-sale__content">
+              <h3 class="card-sale__title">
+                Продвижение в
+                социальных сетях
+              </h3>
+              <p class="card-sale__text">
+                Увеличим Ваши продажи за
+                счет интерактивного
+                взаимодействия с
+                клиентами в социальных
+                сетях.
+              </p>
+              <p class="card-sale__discount">
+                от <span>50 360</span>
+              </p>
+              <p class="card-sale__price">
+                <span>168 000</span>
+                Суперцена только в мае!
+              </p>
+              <a href="#" class="card-sale__link">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="sales__card card-sale">
+            <div class="card-sale__foto">
+              <picture>
+                <source type="image/webp" srcset="./img/reputation.webp, ./img/reputation@2x.webp 2x">
+                <img src="./img/reputation.png" srcset="./img/reputation@2x.png 2x" alt="Специальные виды продаж" width="358" height="117">
+              </picture>
+            </div>
+            <div class="card-sale__content">
+              <h3 class="card-sale__title">
+                SERM — управление
+                репутацией в интернете
+              </h3>
+              <p class="card-sale__text">
+                Удалим негатив, разместим
+                положительные отзывы,
+                увеличим продажи и
+                повысим доверие клиентов.
+              </p>
+              <p class="card-sale__discount">
+                от <span>34 900</span>
+              </p>
+              <p class="card-sale__price">
+                <span>58 750</span>
+                Суперцена только в мае!
+              </p>
+              <a href="#" class="card-sale__link">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="sales__card card-sale">
+            <div class="card-sale__foto">
+              <picture>
+                <source type="image/webp" srcset="./img/improvement.webp, ./img/improvement@2x.webp 2x">
+                <img src="./img/improvement.png" srcset="./img/improvement@2x.png 2x" alt="Специальные виды продаж" width="358" height="117">
+              </picture>
+            </div>
+            <div class="card-sale__content">
+              <h3 class="card-sale__title">
+                улучшение
+                продающих качеств сайта
+              </h3>
+              <p class="card-sale__text">
+                Сделаем Ваш сайт удобным
+                для пользования.
+                Увеличим
+                продажи, количество заявок
+                и звонков.
+              </p>
+              <p class="card-sale__discount">
+                от <span>210 000</span>
+              </p>
+              <p class="card-sale__price">
+                <span>224 000</span>
+                <strong>БЕСПЛАТНО</strong> при оплате SEO в мае.
+              </p>
+              <a href="#" class="card-sale__link">
+                Подробнее
+              </a>
+            </div>
+          </div>
+
+          <div class="sales__card card-sale">
+            <div class="card-sale__foto">
+              <picture>
+                <source type="image/webp" srcset="./img/site.webp, ./img/site@2x.webp 2x">
+                <img src="./img/site.png" srcset="./img/site@2x.png 2x" alt="Специальные виды продаж" width="358" height="117">
+              </picture>
+            </div>
+            <div class="card-sale__content">
+              <h3 class="card-sale__title">
+                Создани сайта
+              </h3>
+              <p class="card-sale__text">
+                Современный привлекательный сайт способствует выводу сайта в
+                ТОП и росту продаж.
+              </p>
+              <p class="card-sale__discount">
+                от <span>34 900</span>
+              </p>
+              <p class="card-sale__price">
+                <span>58 750</span>
+                Суперцена только в мае!
+              </p>
+              <a href="#" class="card-sale__link">
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__adress">
+          <a href="#" class="footer__logo">
+            <img src="./img/logo-footer.svg" alt="Логотип компании дом сайтов" width="185" height="48">
+          </a>
+          <p class="footer__text footer__text--sity">
+            Ваш регион:
+          </p>
+          <a href="#" class="footer__city">Тула</a>
+          <p class="footer__text footer__text--adres">
+            +7 (495) 223-66-59
+            г. Тула, ул. Пушкинская, 27
+          </p>
+
+          <p class="footer__text footer__text--INN">
+            ИНН 123456789
+            ОГРН 123456789010
+          </p>
+
+          <div class="footer__wrap">
+            <a href="#" class="footer__social">
+              <img src="./img/svg-icon/vk-icon.svg" alt="Контакт" width="40" height="40">
+            </a>
+            <a href="#" class="footer__social">
+              <img src="./img/svg-icon/telegram-icon.svg" alt="Телеграм" width="40" height="40">
+            </a>
+          </div>
+        </div>
+        <div class="footer__sales">
+          <h3 class="footer__title">
+            УВЕЛИЧЕНИЕ ПРОДАЖ ДЛЯ
+            ВАШЕГО БИЗНЕСА
+          </h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">
+                SEO
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Тариф «Трафик»
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Тариф «Объем работ»
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Тариф «Лиды / CPA»
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Тариф «SEO + Контекст»
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Комплексное SEO
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Для интернет-магазина
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Продвижение в Яндекс
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Продвижение в Google
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Разовые работы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                SEO-аудит сайтов
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Вывод из-под санкций
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__site">
+          <h3 class="footer__title">
+            РАЗРАБОТКА И ПОДДЕРЖКА
+            САЙТОВ
+          </h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">
+                Разработка
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                На 1С-Битрикс
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                На WordPress
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                На Tilda
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Сайт-визитка
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Интернет-магазин
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Проектирование
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Поддержка сайтов
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Внесение дорабток
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__company">
+          <h3 class="footer__title">
+            КОМПАНИЯ «ДОМ САЙТОВ»
+          </h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">
+                Клиенты и отзывы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Контакты
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Работа в Demis Group
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Личный кабинет
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Статьи
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Публичная оферта
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Партнерская программа
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Гарантии
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Внесение дорабток
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__text footer__text--bottom">
+          © 2008-2022 Компания «ДОМ САЙТОВ»
+        </p>
+        <div class="footer__links">
+          <a class="footer__link" href="#">
+            Карта сайта
+          </a>
+          <a class="footer__link" href="#">
+            Политика конфиденциальности
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
